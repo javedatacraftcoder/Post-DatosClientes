@@ -11,3 +11,119 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Flex Display*/
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*imagen*/
+.main-img img{
+  width: 250px;
+  margin: 20px;
+}
+
+/*formulario*/
+.main-form {
+  margin: 20px;
+}
+.user-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Titulo del Formulario */
+.user-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+/* Campos */
+.form-grps {
+  margin-bottom: 15px;
+}
+
+.form-grps label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-grps input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* boton de envio */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambiar el color del boton al pasar el cursor */
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+.main-lectura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-top: 3px solid lightgray;
+  flex-wrap: nowrap;
+}
+/* Estilo para la tabla general */
+.main-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.main-tabla th, .main-tabla td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo para la fila expandida */
+.expanded-row td {
+  background-color: #f9f9f9;
+}
+
+.main-tabla button {
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambiar el color del botón al pasar el cursor */
+.main-tabla button:hover {
+  background-color: #0056b3;
+}
